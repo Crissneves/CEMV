@@ -1,0 +1,296 @@
+
+body {
+    background-color: #F3F4F5;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.page-header {
+    margin: -8px 0 12px;
+}
+
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+.logo-positon{
+    margin-left: 18px;
+    margin-top: 11px;
+}
+
+.navbar{
+    background-color: #000;
+    
+}
+
+.navbar-top-links {
+    margin-right: 0;
+}
+
+.navbar-top-links li {
+    display: inline-block;
+}
+
+.navbar-top-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-top-links li a {
+    padding: 15px;
+    min-height: 50px;
+    color: #fff;
+}
+
+.icon-position{
+  vertical-align: middle;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.navbar{
+    background-color: #494949;
+    background-image: -ms-linear-gradient(top, #949494, #494949);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#949494), to(#494949));
+    background-image: -webkit-linear-gradient(top, #949494, #494949);
+    background-image: -o-linear-gradient(top, #949494, #494949);
+    background-image: -moz-linear-gradient(top, #949494, #494949);
+    background-image: linear-gradient(top, #949494, #494949);
+    border-bottom: 5px solid #252830;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #2e6da4;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus  {
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff;
+  
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  border-color: #fff;
+  background-color: transparent !important;
+  color: #bbb;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  background-color: transparent !important;
+  border-color: none !important;
+}
+
+.navbar-top-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+    color: #252830;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+    margin-top: -1px;
+}
+
+.navbar-top-links .dropdown-messages {
+    margin-left: 5px;
+}
+
+.navbar-top-links .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-top-links .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-top-links .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+
+
+/*CSS Custom for Login Page */
+
+@media (max-width: 768px) {
+  .navbar-right {
+    margin-top: -47px;
+    display: block;
+  }
+}
+.navbar-right {
+  float: right !important;
+}
+
+.navbar-static-top{
+  height: 59px !important;
+}
+
+.bg-logo-position{
+  margin-top: 59px;
+}
+
+.icon-form {
+  position: relative;
+  color: #bbb;
+  left: 20px;
+  z-index: 10;
+}
+
+.input-lock{
+  margin-left: 3px;
+
+}
+
+.input-user{
+  margin-top: -8px;
+}
+
+.icon-btn {
+  position: relative;
+  color: #fff;
+  left: 108px;
+  top:6px;
+  z-index: 10;
+  font-size: 1.7em !important;
+  cursor: pointer;
+}
+
+.sis-input {
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  margin-left: -9px;
+  width: 350px;
+  height: 35px;
+  text-indent: 20px;
+}
+
+.sis-area {
+  border: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  padding-left: 10px;
+  border-color: #bbb;
+  color: #4f4f4f;
+  background-color: white;
+  outline-color: #121212; }
+
+#sign_in_button {
+  float: right;
+  margin-right: 8px;
+  width: 110px;
+  height: 35px;
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 25px;
+  font-size: 1.1em;
+  padding-left: 35px !important;
+}
+
+.txt-position{
+  margin-left: 9px;
+}
+
+.txt-senha {
+  font-size: 15px;
+  color: #999;
+  float: left;
+  display: block;
+  margin-top: 8px;
+}
+
+.txt-senha:hover {
+  font-size: 15px;
+  color: #999;
+  display: block;
+}
+
+.txt-senha:active {
+  font-size: 15px;
+  color: #999;
+  display: block;  
+}
+
+.txt-senha:focus {
+  font-size: 15px;
+  color: #999;
+  display: block;
+  text-decoration: none;  
+}
+
+.modal-header{
+  background-color: #000;
+  color: #fff;
+}
+
+.modal-title{
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.modal-content{
+  margin-top: 180px;
+  color: #333;
+}
+
+.close-modal-position{
+  float: right;
+  margin-top: 9px;
+  margin-right: 6px;
+}
+
+.close-modal{
+  color: #fff;
+}
+
+.close-modal:hover{
+  color: #bbb;
+}
+
+.sobre-content{
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.btn-container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn{
+  padding-left: 24px !important;
+}
+
+.btn-close{
+  background-color: #f00 !important;
+  z-index: 100000;
+  color: #fff;
+}
+

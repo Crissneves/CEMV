@@ -1,0 +1,157 @@
+﻿{
+   "CodeGenerationMode": 1,
+   "ContextClassName": "CEMVDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "AppCEMV",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[ANIMAL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APRESENTACAO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLINICA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLINICATELEFONE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[COMOCHEGOU]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CONCENTRACAO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[COR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ESPECIALIDADE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ESPECIALIDADEUSUARIO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ESPECIE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ESTOQUE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FABRICANTE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FUNCIONALIDADE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FUNCIONALIDADEPERFIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FUNCIONALIDADEUSUARIO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PERFIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRINCIPIO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUTO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUTOPRECO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PROFISSAO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RACA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TAB_BAIRRO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TAB_CIDADE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TAB_ESTADO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TAREFA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TIPOPRODUTO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TUTOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TUTORTELEFONE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[USUARIO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[USUARIOTELEFONE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VOLUME]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "NOTE-CRIS\\SQLEXPRESS.CEMVDB",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

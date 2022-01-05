@@ -1,0 +1,54 @@
+<form novalidate [formGroup]="cadastrarForm">
+    <div class="page-content-wrapper">
+      <div class="page-content">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- -->
+            <h1 class="page-header">
+              Cores
+            </h1>
+            <ol class="breadcrumb">
+              <li>
+                <i class="fa fa-dashboard"></i>  <a href="index.html">Painel</a>
+              </li>
+              <li><i class="fa fa-edit"></i> Cadastros Básicos</li>
+              <li class="active">Cores</li>
+            </ol>
+          </div>
+        </div>
+        <!-- /.row -->
+        <div class="row" style="min-height:650px;" id="iniciodoconteudo">
+          <div class="col-lg-12">
+            <a href="#iniciodoconteudo" id="iniciodoconteudo" accesskey="2" class="oculto">Início do conteúdo</a>
+            <h3>Incluir</h3><br />
+            <div class="row">
+
+              <div class="col-lg-10">
+                <div class="form-group">
+                  <label for="descricao">Descrição:<span class="obg">*</span></label>
+                  <input id="descricao" class="form-control" formControlName="descricao" placeholder="Descrição (requerida)" [ngClass]="{'is-invalid': this.error.erro}">
+                </div>
+                <div class="text-danger mensagemAlert" *ngIf="this.error.erro">
+                  <p>{{ this.error.erroMensagem }}</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="bt-position">
+                  <!--<button type="button" class="btn btn-primary" [disabled]="!cadastrarForm.valid" (click)="Salvar(cadastrarForm.value)"><i class="fa fa-save"></i>&nbsp;Salvar</button>-->
+                  <button type="button" class="btn btn-primary" (click)="Salvar(cadastrarForm.value)"><i class="fa fa-save"></i>&nbsp;Salvar</button>
+                </div>
+                <div class="bt-position">
+                  <button type="button" (click)="this.back()" class="btn btn-default bt-position-cancel"><i class="fa fa-reply"></i>&nbsp;Voltar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /#page-wrapper -->
+    </div>
+  </form>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../src/assets/images/">
+
+  <title>CEMV</title>
+  <base href="." />
+
+  <!-- Bootstrap Core CSS -->
+  <link href="./assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="./assets/css/aplication.css" rel="stylesheet">
+  <link href="./assets/css/slide-menu.css" rel="stylesheet">
+
+  <!-- Timeline CSS -->
+  <link href="./assets/css/timeline.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="./assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!--  -->
+  <!-- Alto Contraste CSS -->
+  <link rel="alternate stylesheet" type="text/css" href="./assets/css/alto-contraste.css" title="alto-contraste" />
+
+
+  <style>
+    body {
+      background-color: #FFF !important;
+    }
+
+    .dataTables_length, .dataTables_filter, .dataTables_paginate, .dataTables_info {
+      display: none;
+    }
+
+    .page-content {
+      background-color: #FFF !important;
+    }
+    /*.page-header{font-size:20px !important; font-weight:bold; color:#333 !important; display:block; border-bottom: 3px solid #ebebeb; padding-bottom:10px; margin-bottom:12px;"}*/
+  </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <!-- jQuery -->
+  <script src="./assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="./assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- -->
+  <!-- Custom Theme JavaScript -->
+  <script src="./assets/js/aplication.js"></script>
+  <script src="./assets/js/jquery.slimscroll.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- Alto Contraste JavaScript -->
+  <script type="text/javascript" src="./assets/js/styleswitcher.js"></script>
+
+  <!-- Font Size JavaScript -->
+  <script type="text/javascript" src="./assets/js/font-size.js"></script>
+
+  <script>
+    jQuery(document).ready(function () {
+      App.init(); // initlayout and core plugins
+    });
+  </script>
+
+  <script>
+    // tooltip demo
+    $('.tooltip-demo').tooltip({
+      selector: "[data-toggle=tooltip]",
+      container: "body"
+    })
+  </script>
+</head>
+<body id="bodyId" class="page-header-fixed page-sidebar-fixed">
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <app-root>Carregando ...</app-root>
+</body>
+</html>
